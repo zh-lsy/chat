@@ -1,0 +1,31 @@
+
+{
+	    "require": {
+		          "catfan/medoo": ">1.6.0",
+			  "firebase/php-jwt": "*"
+		        },	    
+	     "config": {
+			   "optimize-autoloader": true
+	                },
+	     "repositories": {
+		          "packagist": {
+				          "type": "composer",
+					          "url": "https://packagist.phpcomposer.com"
+				        }
+	      },
+
+	     "autoload": {
+		             "psr-4": { "Myclass\\": "class" }
+			  }
+
+
+
+
+
+
+
+
+
+
+
+}
